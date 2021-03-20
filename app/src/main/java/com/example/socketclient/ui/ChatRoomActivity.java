@@ -27,7 +27,7 @@ public class ChatRoomActivity extends AppCompatActivity {
     private Socket socket;              // 클라이언트의 소켓
     private DataInputStream dis;        // Input 통로
     private DataOutputStream dos;       // Output 통로
-    private String ip = "3.36.7.103";   // Socket 연결할 서버 IP - AWS 고정 IP 사용
+    private String ip = "ip address";   // Socket 연결할 서버 IP - AWS 고정 IP 사용
     private  Integer port = 3003;       // Socket 연결할 서버 Port
 
     /** 안드로이드 관련 변수**/
